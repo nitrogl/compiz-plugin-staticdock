@@ -54,3 +54,8 @@ sudo apt remove compiz-plugin-staticdock
 
 Verified clean in both directions - nothing lingers outside the package
 manifest.
+
+# TODO
+
+- Expo still not working
+- Add options to grab user-specified windows
