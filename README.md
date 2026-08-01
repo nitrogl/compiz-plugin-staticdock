@@ -7,7 +7,7 @@ A standalone, independently buildable/installable Debian package for the
 and fully opaque while cube, rotate, or expo transform the desktop,
 instead of shrinking/rotating/fading them along with everything else.
 
-![Screenshot of the plugin at work](compiz-plugin-staticdock.png)
+![Screenshot of the plugin at work](compiz-plugin-staticdock.jpg)
 
 ## Building
 
