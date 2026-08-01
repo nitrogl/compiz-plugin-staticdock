@@ -1,0 +1,7 @@
+compiz-plugin-staticdock (0.1.0-1) unstable; urgency=medium
+
+  * Initial release: standalone out-of-tree compiz plugin that keeps
+    dock/panel windows flat and fully opaque while cube, rotate, or
+    expo transform the desktop.
+
+ -- Roberto Metere <roberto@metere.it>  Sat, 01 Aug 2026 10:22:45 +0000
