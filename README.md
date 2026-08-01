@@ -7,6 +7,8 @@ A standalone, independently buildable/installable Debian package for the
 and fully opaque while cube, rotate, or expo transform the desktop,
 instead of shrinking/rotating/fading them along with everything else.
 
+This plugin was inspired by similar effects in KDE. Its two-pass rendering approach was inspired by Mark Thomas's static.c plugin for Compiz 0.8, but was independently reimplemented for Compiz 0.9.x using the GLScreenInterface and GLWindowInterface APIs.
+
 ![Screenshot of the plugin at work](compiz-plugin-staticdock.jpg)
 
 ## Building
