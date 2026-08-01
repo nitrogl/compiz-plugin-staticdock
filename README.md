@@ -1,10 +1,13 @@
 # Static Dock Plugin for Compiz
 
+![Compiz](https://img.shields.io/badge/Compiz-0.9-blue)
+
 A standalone, independently buildable/installable Debian package for the
 `staticdock` compiz plugin - keeps panel/dock windows flat, undistorted,
 and fully opaque while cube, rotate, or expo transform the desktop,
 instead of shrinking/rotating/fading them along with everything else.
 
+![Screenshot of the plugin at work](compiz-plugin-staticdock.png)
 
 ## Building
 
