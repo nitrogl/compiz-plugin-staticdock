@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compiz>
+    <plugin name="staticdock" useBcop="true">
+        <_short>Static Dock</_short>
+        <_long>Keep panels and docks flat while the desktop cube/rotate plugins transform the screen</_long>
+        <category>Desktop</category>
+        <deps>
+            <relation type="after">
+                <plugin>cube</plugin>
+                <plugin>rotate</plugin>
+                <plugin>decor</plugin>
+            </relation>
+        </deps>
+        <options>
+        </options>
+    </plugin>
+</compiz>
