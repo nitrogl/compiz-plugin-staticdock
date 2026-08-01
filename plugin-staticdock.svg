@@ -377,7 +377,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="10.271856"
      inkscape:cx="35.680017"
-     inkscape:cy="-7.5935643"
+     inkscape:cy="23.55952"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -641,19 +641,19 @@
        cy="28.069599"
        r="1.7737998" />
     <circle
-       style="fill:#cbc470;fill-opacity:1;stroke:#e2d738;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:21.4;stroke-dasharray:none;stroke-opacity:0.79000002;paint-order:normal"
+       style="fill:#cbc470;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:21.4;stroke-dasharray:none;stroke-opacity:0.78500003;paint-order:stroke markers fill"
        id="circle2"
        cx="19.229427"
        cy="27.073978"
        r="2.7694194" />
     <circle
-       style="fill:#7dcb70;fill-opacity:1;stroke:#4ec72c;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:21.4;stroke-dasharray:none;stroke-opacity:0.77749997;paint-order:normal"
+       style="fill:#7dcb70;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:21.4;stroke-dasharray:none;stroke-opacity:0.78500003;paint-order:stroke markers fill"
        id="circle3"
        cx="29.848108"
        cy="28.069599"
        r="1.7737998" />
     <circle
-       style="fill:#7094cb;fill-opacity:1;stroke:#2c7ac7;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:21.4;stroke-dasharray:none;stroke-opacity:0.84500003;paint-order:normal"
+       style="fill:#7094cb;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:21.4;stroke-dasharray:none;stroke-opacity:0.78500003;paint-order:stroke markers fill"
        id="circle4"
        cx="40.466789"
        cy="28.069599"
@@ -666,7 +666,7 @@
        x="-1.3229145"
        y="-15.999999" />
     <circle
-       style="fill:#cb7070;fill-opacity:1;stroke:#c72c2c;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:21.4;stroke-dasharray:none;stroke-opacity:0.72750002;paint-order:normal"
+       style="fill:#cb7070;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:21.4;stroke-dasharray:none;stroke-opacity:0.78500003;paint-order:stroke markers fill"
        id="circle5"
        cx="8.6107473"
        cy="28.069599"
