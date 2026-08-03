@@ -5,25 +5,32 @@
 #ifndef _STATICDOCK_H
 #define _STATICDOCK_H
 
+
 #include <core/core.h>
 #include <core/pluginclasshandler.h>
+#include <core/match.h>
 #include <composite/composite.h>
 #include <opengl/opengl.h>
 
+#include "staticdock_options.h"
 
-static bool isDock (CompWindow *w)
+
+enum StaticDockEffect
 {
-    return (w->type () & CompWindowTypeDockMask) != 0;
-}
+    StaticDockNone,
+    StaticDockCube,
+    StaticDockExpo
+};
 
-class StaticDockScreen :
-public PluginClassHandler<StaticDockScreen, CompScreen>,
+class StaticDock :
+public PluginClassHandler<StaticDock, CompScreen>,
+public StaticdockOptions,
 public GLScreenInterface,
 public CompositeScreenInterface
 {
 public:
-    StaticDockScreen (CompScreen *screen);
-    ~StaticDockScreen ();
+    StaticDock (CompScreen *screen);
+    ~StaticDock ();
     
     CompositeScreen *cScreen;
     GLScreen        *gScreen;
@@ -53,10 +60,12 @@ public:
                                    unsigned int              mask);
     
     void paintDocksFlat (CompOutput *output);
+    
+    bool isStatic (CompWindow *w);
 };
 
 #define STATICDOCK_SCREEN(s)                                              \
-StaticDockScreen *sds = StaticDockScreen::get (s)
+StaticDock *sds = StaticDock::get (s)
 
 class StaticDockWindow :
 public PluginClassHandler<StaticDockWindow, CompWindow>,
@@ -78,7 +87,7 @@ public:
 StaticDockWindow *sdw = StaticDockWindow::get (w)
 
 class StaticDockPluginVTable :
-public CompPlugin::VTableForScreenAndWindow<StaticDockScreen,StaticDockWindow>
+public CompPlugin::VTableForScreenAndWindow<StaticDock,StaticDockWindow>
 {
 public:
     bool init ();

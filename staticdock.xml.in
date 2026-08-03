@@ -8,10 +8,28 @@
             <relation type="after">
                 <plugin>cube</plugin>
                 <plugin>rotate</plugin>
-                <plugin>decor</plugin>
+                <plugin>expo</plugin>
+                <plugin>zoom</plugin>
+                <plugin>ezoom</plugin>
             </relation>
+            <requirement>
+                <plugin>composite</plugin>
+                <plugin>opengl</plugin>
+            </requirement>
         </deps>
         <options>
+            <group>
+                <short>Behaviour</short>
+                
+                <option name="cube_static_docks" type="bool">
+                    <short>Enable for Cube Rotation/Transformation</short>
+                    <default>true</default>
+                </option>
+                <option name="expo_static_docks" type="bool">
+                    <short>Enable for Expo</short>
+                    <default>true</default>
+                </option>
+            </group>
         </options>
     </plugin>
 </compiz>
