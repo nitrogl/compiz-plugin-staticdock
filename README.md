@@ -2,6 +2,11 @@
 
 ![Compiz](https://img.shields.io/badge/Compiz-0.9-blue)
 
+![Supported plugin: Cube Rotate](https://img.shields.io/badge/Compiz Plugin-Cube Rotate-green)
+![Supported plugin: Expo](https://img.shields.io/badge/Compiz Plugin-Expo-green)
+![Unsupported affected plugin: Zoom/eZoom](https://img.shields.io/badge/Compiz Plugin-Zoom/eZoom-green)
+
+
 A standalone, independently buildable/installable Debian package for the
 `staticdock` compiz plugin - keeps panel/dock windows flat, undistorted,
 and fully opaque while cube, rotate, or expo transform the desktop,
