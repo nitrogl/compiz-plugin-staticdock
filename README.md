@@ -46,7 +46,7 @@ make
 Installing in Ubuntu
 
 ```shell
-sudo apt install ./compiz-plugin-staticdock_0.1.0-1_amd64.deb
+sudo dpkg -i ./compiz-plugin-staticdock_0.1.0-1_amd64.deb
 ```
 
 Restart compiz if necessary. Then enable "Static Dock" in CCSM.
@@ -59,8 +59,3 @@ sudo apt remove compiz-plugin-staticdock
 
 Verified clean in both directions - nothing lingers outside the package
 manifest.
-
-# TODO
-
-- Expo still not working
-- Add options to grab user-specified windows
