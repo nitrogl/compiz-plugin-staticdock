@@ -2,7 +2,7 @@
 
 ![Compiz](https://img.shields.io/badge/Compiz-0.9-blue)
 
-![Supported plugin: Cube Rotate](https://img.shields.io/badge/Plugin-Cube Rotate-green)
+![Supported plugin: Cube Rotate](https://img.shields.io/badge/Plugin-Cube/Rotate-green)
 ![Supported plugin: Expo](https://img.shields.io/badge/Plugin-Expo-green)
 ![Unsupported affected plugin: Zoom/eZoom](https://img.shields.io/badge/Plugin-Zoom/eZoom-green)
 
