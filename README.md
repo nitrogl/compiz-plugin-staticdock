@@ -4,7 +4,7 @@
 
 ![Supported plugin: Cube Rotate](https://img.shields.io/badge/Plugin-Cube/Rotate-green)
 ![Supported plugin: Expo](https://img.shields.io/badge/Plugin-Expo-green)
-![Unsupported affected plugin: Zoom/eZoom](https://img.shields.io/badge/Plugin-Zoom/eZoom-green)
+![Unsupported affected plugin: Zoom/eZoom](https://img.shields.io/badge/Plugin-Zoom/eZoom-orange)
 
 
 A standalone, independently buildable/installable Debian package for the
