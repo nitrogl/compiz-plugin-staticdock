@@ -1,3 +1,12 @@
+compiz-plugin-staticdock (0.1.1-1) unstable; urgency=medium
+
+  * Add per-effect (Cube/Rotate and Expo) options to enable or
+    disable static docks.
+  * Add a generic option to enable static windows for other
+    transformed-screen effects (e.g. eZoom).
+
+ -- Roberto Metere <roberto@metere.it>  Tue, 04 Aug 2026 09:14:00 +0100
+
 compiz-plugin-staticdock (0.1.0-1) unstable; urgency=medium
 
   * Initial release: standalone out-of-tree compiz plugin that keeps

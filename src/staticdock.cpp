@@ -25,8 +25,8 @@ StaticDock::isStatic (CompWindow *w)
         return optionGetExpoStaticDocks () && dock;
     }
     
-    // All other effects get docks static
-    return dock;
+    // All other effects
+    return optionGetGlobalStaticDocks () && dock;
     
 }
 

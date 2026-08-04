@@ -29,6 +29,11 @@
                     <short>Enable for Expo</short>
                     <default>true</default>
                 </option>
+                <option name="global_static_docks" type="bool">
+                    <_short>Enable for other effects (Zoom, etc.)</_short>
+                    <_long>If disabled, it affects Cube/Rotation when "released" and trasforming back to normal.</_long>
+                    <default>true</default>
+                </option>
             </group>
         </options>
     </plugin>
