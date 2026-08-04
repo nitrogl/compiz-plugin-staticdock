@@ -1,0 +1,6 @@
+/obj-*
+/debian/compiz-plugin-staticdock*
+/debian/*debhelper*
+/debian/files
+/build/
+
